@@ -11,11 +11,11 @@ const ItemDetail = ({ item }) => {
     };
 
     return (
-        <Row>
-            <Col className="col-md-5 text-center mt-2">
+        <Row className="container-fluid">
+            <Col className="col-md-5 text-center mt-2 container-fluid">
                 <img className="mw-100" src={item?.img} alt={item?.title} />
             </Col>
-            <Container className="mt-2 col-md-7">
+            <Container className="mt-2 col-md-7 container-fluid">
                 <Col className="col-md-12">
                     <h1>{item?.title}</h1>
                 </Col>

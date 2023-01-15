@@ -90,7 +90,7 @@ export const OrderForm = () => {
                     inputState={emailCheck}
                     setInputState={setEmailCheck}
                     type="email"
-                    label="Email"
+                    label=" Confirmar Email"
                     placeholder="correo@dominio.com"
                     inputFunction={validateEmailCheck}
                 />
