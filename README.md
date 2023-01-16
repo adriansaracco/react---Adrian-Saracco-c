@@ -20,3 +20,15 @@
     `npm install react-router-dom`
 
 ## Brief
+1.- Usuario ingresa al inicio de la página donde verá todos los productos, independientemente de la categoría
+2.- mientras no haya productos seleccionado, el carrito mostratá una leyenda indicando que debe comprar algo
+3.- Al seleccionar un producto, ya sea desde el home o filtrado, podrá ver información detallada del mismo y agregarlo al carrirto
+4.- El Carrito se irá alimentando con los productos agregados
+5.- El usuario podrá vaciar el carrito o avanzar para generar su orden de compra
+6.- En la orden de compra tendrá un detalle de lo acumulado y un form con validaciones para ingresar sus datos
+7.- Si la validación del form es exitosa, se generará una orden de compra y la misma será mostrada al usuario a la vez que se guarda una copia en Firestore
+
+## Notas
+
+-No hay movimiento de stock dentro de firestore
+-no hay pasarela de pago integrada
