@@ -32,3 +32,4 @@
 
 -No hay movimiento de stock dentro de firestore
 -no hay pasarela de pago integrada
+- Link al video demostración: https://share.vidyard.com/watch/1cw6ZchUn8jb9cuGU3dsjK?
